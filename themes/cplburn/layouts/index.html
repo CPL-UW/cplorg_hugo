@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Site.Params.subtitle }}</h2>
+</div>
+
+<div class="content">
+    <h3>papers</h3>
+  {{ range (where .Data.Pages "Type" "bib") }}
+    {{ .Render "li"}}
+  {{ end }}
+</div>
+<div class="content">
+    <h3>posts</h3>
+  {{ range (where .Data.Pages "Type" "post") }}
+    {{ .Render "li"}}
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}
