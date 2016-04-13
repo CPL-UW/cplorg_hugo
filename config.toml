@@ -4,6 +4,7 @@ title = "complex play lab"
 uglyurls = true
 canonifyurls = true
 theme = "cplburn"
+builddrafts = true
 
 paginate = 10
 
