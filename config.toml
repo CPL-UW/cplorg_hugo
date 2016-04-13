@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "complex play lab"
 uglyurls = true
 canonifyurls = true
+theme = "cplburn"
 
 paginate = 10
 
