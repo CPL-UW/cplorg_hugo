@@ -8,11 +8,10 @@ booktitle = "DiGRA 2014"
 +++
 ```bibtex
 @inproceedings{ramirez2014,
-    address     = {Snowbird, Utah},
-    author      = {Ramirez and Seyler and Squire and Berland},
-    booktitle   = {DiGRA 2014},
-    title       = {{I’m a Loser, Baby : Gamer Identity & Failure}},
-    year        = {2014},
-    link         = {http://content.lib.utah.edu/utils/getfile/collection/EHSL_DiGRA/id/67/filename/97.pdf}
+    author    = {Ramirez and Seyler and Squire and Berland},
+    booktitle = {DiGRA 2014},
+    title     = {{I’m a Loser, Baby : Gamer Identity & Failure}},
+    year      = {2014},
+    link      = {http://content.lib.utah.edu/utils/getfile/collection/EHSL_DiGRA/id/67/filename/97.pdf}
 }
 ```

@@ -12,6 +12,6 @@ booktitle = "Proceedings of ACM SIG-IDC"
     year      = {2014},
     title     = {MakeScape Lite: A Prototype Learning Environment for Making, Design},
     booktitle = {Proceedings of ACM SIG-IDC},
-    link 	  = {http://dl.acm.org/citation.cfm?id=2610459}
+    link 	    = {http://dl.acm.org/citation.cfm?id=2610459}
 }
 ```

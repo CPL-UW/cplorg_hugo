@@ -1,10 +1,10 @@
-baseurl = "http://complexplay.org/"
 languageCode = "en-us"
 title = "complex play lab"
 uglyurls = true
 canonifyurls = true
 theme = "cplburn"
 builddrafts = true
+baseurl = "http://localhost:1313/"
 
 paginate = 10
 

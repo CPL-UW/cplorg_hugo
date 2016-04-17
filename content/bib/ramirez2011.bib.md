@@ -8,11 +8,10 @@ journal = "User Experience Magazine"
 +++
 ```bibtex
 @article{ramirez2011,
-    author 		= {Ramirez and Chu and Salmon and Gutierrez},
-    journal 	= {User Experience Magazine},
-    title 		= {{Designing Games for Non-Gamers: Rapid Prototyping as a Design Methodology}},
-    link 		= {http://uxpamagazine.org/gamesfornongamers/},
-    year 		= {2011}
+    author    = {Ramirez and Chu and Salmon and Gutierrez},
+    journal   = {User Experience Magazine},
+    title     = {Designing Games for Non-Gamers: Rapid Prototyping as a Design Methodology},
+    link      = {http://uxpamagazine.org/gamesfornongamers/},
+    year      = {2011}
 }
-
 ```
