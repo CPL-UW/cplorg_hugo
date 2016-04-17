@@ -13,6 +13,6 @@ journal = "Journal of Science Education and Technology"
     title     = {Comparing Virtual and Physical Robotics Environments for Supporting Complex Systems and Computational Thinking},
     journal   = {Journal of Science Education and Technology},
     doi       = {doi:10.1007/s10956-015-9552-x},
-    link       = {http://link.springer.com/article/10.1007/s10956-015-9552-x}
+    link      = {http://link.springer.com/article/10.1007/s10956-015-9552-x}
 }
 ```
