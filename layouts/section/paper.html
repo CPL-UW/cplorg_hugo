@@ -3,11 +3,11 @@
   <ul class="posts">
     {{ range .Data.Pages }}
     <li>
-        {{ .Params.year }} 
+        {{ .Params.year }}
         &middot;
-        {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a> 
-        {{ else }} 
-            {{ .Title }} 
+        {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a>
+        {{ else }}
+            {{ .Title }}
         {{ end }}
         {{ if isset .Params "categories" }} &middot;
             {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}

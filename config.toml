@@ -24,8 +24,8 @@ paginate = 10
 [[menu.main]]
     name = "papers"
     weight = -110
-    identifier = "bib"
-    url = "/bib/"
+    identifier = "paper"
+    url = "/paper/"
 
 [[menu.main]]
     name = "posts"

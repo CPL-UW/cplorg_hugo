@@ -13,7 +13,7 @@
 
 <div class="content">
     <h3>papers</h3>
-  {{ range (where .Data.Pages "Type" "bib") }}
+  {{ range (where .Data.Pages "Type" "paper") }}
     {{ .Render "li"}}
   {{ end }}
 </div>

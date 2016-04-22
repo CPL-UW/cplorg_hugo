@@ -1,8 +1,8 @@
 <table>
   <tr style="vertical-align: top;">
     <td>{{.Date.Year}}</td>
-    <td  class="papertitle bib" style="padding-left: 10px;">
-        {{ if isset .Params "link" }} 
+    <td  class="papertitle paper" style="padding-left: 10px;">
+        {{ if isset .Params "link" }}
             <a href="{{ .Params.link }}">{{ .Title }}</a>
         {{else}}
             {{.Title}}
@@ -11,7 +11,7 @@
   </tr>
   <tr style="vertical-align: top;">
       <td>&nbsp;</td>
-    <td class="authors bib" style="padding-left: 10px; text-align:left;">
+    <td class="authors paper" style="padding-left: 10px; text-align:left;">
         <a href="{{.Permalink}}">[bib]</A>
         {{ .Params.author }}
     </td>
