@@ -5,17 +5,33 @@
   <h2>{{ .Site.Params.subtitle }}</h2>
 </div>
 <div class="content">
-    <h3>recent posts</h3>
+  <h3>recent posts</h3>
   {{ range (where .Data.Pages "Type" "post") }}
-    {{ .Render "li"}}
+  {{ .Render "li"}}
   {{ end }}
 </div>
 
 <div class="content">
-    <h3>papers</h3>
-  {{ range (where .Data.Pages "Type" "paper") }}
-    {{ .Render "li"}}
+  <h3>projects</h3>
+  {{ range (where .Data.Pages "Type" "projects") }}
+  {{ .Render "li"}}
   {{ end }}
 </div>
+
+<div class="content">
+  <h3>people</h3>
+  {{ range (where .Data.Pages "Type" "people") }}
+  {{ .Render "li"}}
+  {{ end }}
+</div>
+
+
+<div class="content">
+  <h3>papers</h3>
+  {{ range (where .Data.Pages "Type" "paper") }}
+  {{ .Render "li"}}
+  {{ end }}
+</div>
+
 
 {{ partial "footer.html" . }}
