@@ -9,26 +9,32 @@ baseurl = "http://localhost:1313/"
 paginate = 10
 
 [author]
-    name = "complex play lab"
+name = "complex play lab"
 
 [permalinks]
-    # Optional. Change the permalink format for the 'post' content type.
-    # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/blog/:year/:month/:day/:title/"
+# Optional. Change the permalink format for the 'post' content type.
+# The format shown here is the same one Jekyll/Octopress uses by default.
+post = "/blog/:year/:month/:day/:title/"
 
 [taxonomies]
-    # Optional. Use if you want tags and lists.
-    category = "categories"
+# Optional. Use if you want tags and lists.
+category = "categories"
 
 
 [[menu.main]]
-    name = "papers"
-    weight = -110
-    identifier = "paper"
-    url = "/paper/"
+name = "papers"
+weight = -110
+identifier = "paper"
+url = "/paper/"
 
 [[menu.main]]
-    name = "posts"
-    weight = -110
-    identifier = "post"
-    url = "/post/"
+name = "posts"
+weight = -110
+identifier = "post"
+url = "/post/"
+
+[[menu.main]]
+name = "person"
+weight = -110
+identifier = "person"
+url = "/person/"

@@ -4,6 +4,7 @@
   <h1>{{ .Title }}</h1>
   <h2>{{ .Site.Params.subtitle }}</h2>
 </div>
+
 <div class="content">
   <h3>recent posts</h3>
   {{ range (where .Data.Pages "Type" "post") }}
@@ -19,19 +20,17 @@
 </div>
 
 <div class="content">
-  <h3>people</h3>
-  {{ range (where .Data.Pages "Type" "people") }}
-  {{ .Render "li"}}
-  {{ end }}
-</div>
-
-
-<div class="content">
   <h3>papers</h3>
   {{ range (where .Data.Pages "Type" "paper") }}
   {{ .Render "li"}}
   {{ end }}
 </div>
 
+<div class="content people" >
+  <h3>people</h3>
+  {{ range (where .Data.Pages "Type" "person") }}
+  {{ .Render "li"}}
+  {{ end }}
+</div>
 
 {{ partial "footer.html" . }}
