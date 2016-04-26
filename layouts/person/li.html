@@ -1,4 +1,5 @@
 <div class="person" style="display:inline-block;">
+<<<<<<< HEAD
 	<a href="{{ .Permalink }}">
 		<div class="headshot">
 			{{ if isset .Params "headshot" }}<img src="{{ .Params.headshot }}" style="border-radius: 30px;" >
@@ -9,4 +10,14 @@
 			{{else}}{{.Title}}{{end}}
 		</div>
 	</a>
+=======
+  <div class="headshot">
+    {{ if isset .Params "headshot" }}<img src="{{ .Params.headshot }}" style="border-radius: 30px;" >
+    {{else}}<img src="img/default.jpg">{{end}}
+  </div>
+  <div class="personname" style="position: relative; top: -70px; background-color: yellow;">
+    {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a>
+    {{else}}{{.Title}}{{end}}
+  </div>
+>>>>>>> 4ff6c2e929c94f6859935197c026eded580607c6
 </div>
