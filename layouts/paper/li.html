@@ -1,0 +1,19 @@
+<table>
+  <tr style="vertical-align: top;">
+    <td>{{.Date.Year}}</td>
+    <td  class="papertitle paper" style="padding-left: 10px;">
+        {{ if isset .Params "link" }}
+            <a href="{{ .Params.link }}">{{ .Title }}</a>
+        {{else}}
+            {{.Title}}
+        {{end}}
+    </td>
+  </tr>
+  <tr style="vertical-align: top;">
+      <td>&nbsp;</td>
+    <td class="authors paper" style="padding-left: 10px; text-align:left;">
+        <a href="{{.Permalink}}">[bib]</A>
+        {{ .Params.author }}
+    </td>
+  </tr>
+</table>

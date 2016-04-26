@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
+</div>
+<div class="content">
+
+  <div class="headshot">
+    {{ if isset .Params "headshot" }}<img src="/{{ .Params.headshot }}" style="border-radius: 30px;" >
+    {{else}}<img src="img/default.jpg">{{end}}
+  </div>
+
+  {{ .Description }}
+
+  {{ .Content }}
+
+</div>
+
+{{ partial "footer.html" . }}
