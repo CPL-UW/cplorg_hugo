@@ -1,8 +1,19 @@
-{{ partial "head.html" . }}
-<div class="content container">
-  <div class="post">
-    <h1 class="post-title">{{ .Title }}</h1>
-    {{ .Content }}
-  </div>
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
 </div>
-{{ partial "foot.html" . }}
+<div class="content">
+
+  <div class="headshot">
+    {{ if isset .Params "headshot" }}<img src="/{{ .Params.headshot }}" style="border-radius: 30px;" >
+    {{else}}<img src="img/default.jpg">{{end}}
+  </div>
+
+  {{ .Description }}
+
+  {{ .Content }}
+
+</div>
+
+{{ partial "footer.html" . }}
