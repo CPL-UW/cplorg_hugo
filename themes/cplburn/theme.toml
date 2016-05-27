@@ -1,18 +1,17 @@
-name = "Blackburn"
+name = "hexburn"
 license = "MIT"
 licenselink = "https://github.com/yoshiharuyamashita/blackburn/blob/master/LICENSE.md"
-description = "A clear, responsive theme constructed using Pure CSS from Yahoo"
-homepage = "https://github.com/yoshiharuyamashita/blackburn"
-tags = ["blog", "personal", "purecss", "responsive"]
-features = ["blog", "personal", "purecss", "responsive"]
+description = "A theme based on Blackburn, which is constructed using Pure CSS from Yahoo"
+homepage = "https://github.com/CPL-UW/cplorg_hugo"
+tags = ["purecss", "responsive"]
+features = ["purecss", "responsive"]
 min_version = 0.15
 
 [author]
+  name = "Matthew Berland"
+  homepage = "https://github.com/mberland"
+
+[original]
   name = "Yoshiharu Yamashita"
   homepage = "https://github.com/yoshiharuyamashita"
-
-# If porting an existing theme
-[original]
-  name = "Responsive side menu"
-  homepage = "http://purecss.io/layouts/"
-  repo = "https://github.com/yahoo/pure"
+  repo = "https://github.com/yoshiharuyamashita/blackburn"

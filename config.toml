@@ -20,14 +20,11 @@ post = "/blog/:year/:month/:day/:title/"
 # Optional. Use if you want tags and lists.
 category = "categories"
 
-<<<<<<< HEAD
 [[menu.main]]
 name = "home"
 weight = -110
 identifier = "home"
 url = "/"
-=======
->>>>>>> 4ff6c2e929c94f6859935197c026eded580607c6
 
 [[menu.main]]
 name = "papers"

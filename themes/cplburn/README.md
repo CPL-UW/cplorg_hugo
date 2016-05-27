@@ -1,42 +1,14 @@
 # Blackburn
 
-Blackburn is a clear and responsive theme for [Hugo](//gohugo.io).
+Hexburn is a clear and responsive theme based on Blackburn for [Hugo](//gohugo.io).
 
 ## Overview
 
 * Based on Yahoo's [Pure CSS] (http://purecss.io/) (v0.6.0)
-* Fixed sidebar with social links:
-  * Twitter
-  * Facebook
-  * Google+
-  * Weibo
-  * Instagram
-  * Flickr
-  * Pinterest
-  * YouTube
-  * Vimeo
-  * Vine
-  * SlideShare
-  * LinkedIn
-  * Xing
-  * Reddit
-  * Hacker News
-  * GitHub
-  * Bitbucket
-  * Stack Overflow
 * Client-side syntax highlighting by [Highlight.js](//highlightjs.org) (v9.1.0)
 * Web analytics by Google Analytics
 * Comments by Disqus
 * Icons by Font Awesome (v4.5.0)
-
-## Demo
-
-* [Demo](http://themes.gohugo.io/theme/blackburn/)
-* You can also see it in action on my personal website [here](http://yoshiharuyamashita.com/)
-
-## Screenshots
-
-![screenshot](/images/screenshot.png)
 
 ## Installation
 
