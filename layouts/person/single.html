@@ -1,18 +1,20 @@
 {{ partial "header.html" . }}
 
-<div class="header">
-  <h1>{{ .Title }}</h1>
-</div>
 <div class="content">
-
-  <div class="headshot">
-    {{ if isset .Params "headshot" }}<img src="/{{ .Params.headshot }}" style="border-radius: 30px;" >
-    {{else}}<img src="img/default.jpg">{{end}}
+  <div class="headshotboxsingle">
+    {{ if isset .Params "headshot" }}<img class="headshot" src="/{{ .Params.headshot }}" >
+    {{else}}<img class="headshot" src="/img/book.png">{{end}}
   </div>
 
+  <div class="personheadersingle">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+<div class="personboxsingle">
   {{ .Description }}
 
   {{ .Content }}
+</div>
 
 </div>
 

@@ -1,9 +1,9 @@
 +++
-date = "2016-04-24T13:50:28-05:00"
-description = "What does your bio look like?"
+date = "2016-06-24T13:50:28-05:00"
+description = ""
 draft = true
 tags = []
-title = "matthew the berland"
+title = "matthew berland (director)"
 topics = []
 headshot = "img/m_berland.jpg"
 +++

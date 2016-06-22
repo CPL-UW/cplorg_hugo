@@ -1,18 +1,32 @@
 .header {
-  font-family: "'Source Code Pro'", Helvetica, Arial, sans-serif
+  font-family: Helvetica;
+  text-align: left;
+  vertical-align: center;
+  font-size: 2em;
+  margin: 0;
+  text-align: left;
+  /*border-bottom: 3px solid #eee;*/
+  padding: 0;
+  margin-top: 0;
+  /*padding-bottom: 50px;*/
 }
 
+body {background-color: #000000;}
+
+#logo {height:200px;}
 
 a {
-  color: #3b8bba;
+  /*color: #3b8bba;*/
+  color: #9999FF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:visited {
-  color: #265778;
+  /*color: #265778;*/
+  color: #3b8bba;
 }
 
 .small-print {
@@ -63,6 +77,16 @@ article > footer {
   font-size: 0.9em;
 }
 
+.pure-menu-link span {
+    opacity:0;
+}
+.pure-menu-link:hover span {
+    text-decoration: none;
+    opacity:1;
+    -webkit-transition: opacity .25s ease-in-out .0s;
+    transition: opacity .25s ease-in-out .0s;
+}
+
 i {
   display: inline-block;
   margin-right: 0.2em;
@@ -73,8 +97,6 @@ i {
 }
 
 .content {
-  font-family: 'Source Code Pro';
-  font-weight: 400;
   text-transform: none;
   background: transparent;
   text-decoration: none;
@@ -82,13 +104,50 @@ i {
 }
 h1,h2,h3,h4 {
   text-align: left;
-  font-weight: 700;
 }
 .authors {
   font-size: 0.85em;
 }
 .bib {
 }
+
+.headshotbox  {
+  width: 200px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.headshotboxsingle  {
+  width: 200px;
+  height: 270px;
+  overflow: hidden;
+  float:left;
+  padding: 20px;
+}
+
+.personboxsingle {
+  margin: 10px;
+  padding: 10px;
+}
+
+.personheadersingle {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.headshot {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.personname {
+position: relative;
+top: -90px;
+color: #3b8bba;
+background-color: yellow;
+}
+
 * {
-  font-family: 'Source Code Pro';
+  font-family: 'VT323','Source Code Pro';
+  color: white;
 }

@@ -8,6 +8,9 @@ baseurl = "http://localhost:1313/"
 
 paginate = 10
 
+[params]
+subtitle = "uw–madison"
+
 [author]
 name = "complex play lab"
 
