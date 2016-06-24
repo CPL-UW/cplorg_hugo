@@ -12,21 +12,21 @@
 </div>
 
 <div class="content">
-  <h3>recent posts</h3>
+  <a id="posts"><h3>recent posts</h3></a>
   {{ range (where .Data.Pages "Type" "post") }}
   {{ .Render "li"}}
   {{ end }}
 </div>
 
 <div class="content">
-  <h3>projects</h3>
+  <a id="projects"><h3>projects</h3></a>
   {{ range (where .Data.Pages "Type" "projects") }}
   {{ .Render "li"}}
   {{ end }}
 </div>
 
 <div class="content">
-  <h3>papers</h3>
+  <a id="papers"><h3>recent papers</h3></a>
   {{ range (where .Data.Pages "Type" "paper") }}
   {{ .Render "li"}}
   {{ end }}

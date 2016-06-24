@@ -5,5 +5,6 @@ draft = true
 tags = []
 title = "ADAGE"
 topics = []
+link = "http://adageapi.org/"
 projectshot = "/img/p_adage.jpg"
 +++

@@ -5,5 +5,6 @@ draft = true
 tags = []
 title = "oztoc"
 topics = []
+link = "http://www.gameslearningsociety.org/oztoc_microsite/"
 projectshot = "/img/p_oztoc.jpg"
 +++

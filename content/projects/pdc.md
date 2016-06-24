@@ -5,5 +5,6 @@ draft = true
 tags = []
 title = "play data consortium"
 topics = []
+link = "http://playdataconsortium.org/"
 projectshot = "/img/p_pdc.png"
 +++

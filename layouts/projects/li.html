@@ -1,12 +1,13 @@
 <div class="project" style="display:inline-block;">
-  <a href="{{ .Permalink }}">
-	  <div class="projectshotbox">
-	    {{ if isset .Params "projectshot" }}<img class="projectshot" src="{{ .Params.projectshot }}" >
-	    {{else}}<img class="headshot" src="img/book.png">{{end}}
-	  </div>
-	  <div class="projectname">
-	    {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a>
-	    {{else}}{{.Title}}{{end}}
-	  </div>
-  </a>
-</div>
+  {{ if isset .Params "link" }}<a href="{{ .Params.link }}">
+    {{else}}<a href="#papers">{{end}}
+      <div class="projectshotbox">
+        {{ if isset .Params "projectshot" }}<img class="projectshot" src="{{ .Params.projectshot }}" >
+        {{else}}<img class="headshot" src="img/book.png">{{end}}
+      </div>
+      <div class="projectname">
+        {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a>
+        {{else}}{{.Title}}{{end}}
+      </div>
+    </a>
+  </div>
