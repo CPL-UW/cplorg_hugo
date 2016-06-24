@@ -7,7 +7,7 @@
 </div>
 
 <div class="content">
-  <h3>contact</h3>
+  <a id="contact"><h3>contact</h3></a>
   <li><a href="https://ci.education.wisc.edu/ci/people/faculty/matthew-berland">matthew berland</a>, director</li>
 </div>
 
@@ -33,7 +33,7 @@
 </div>
 
 <div class="content people" >
-  <h3>people</h3>
+  <a id="people"><h3>people</h3></a>
   {{ range (where .Data.Pages "Type" "person") }}
   {{ .Render "li"}}
   {{ end }}
