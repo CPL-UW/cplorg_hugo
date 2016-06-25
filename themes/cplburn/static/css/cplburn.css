@@ -1,17 +1,22 @@
+
+
 .header {
-  font-family: Helvetica;
   text-align: left;
   vertical-align: center;
-  font-size: 2em;
-  margin: 0;
-  text-align: left;
-  /*border-bottom: 3px solid #eee;*/
-  padding: 0;
-  margin-top: 0;
-  /*padding-bottom: 50px;*/
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-body {background-color: #000000;}
+.headertext {
+  font-size:80px;
+  line-height:100px;
+}
+.headerlogo {
+  float: left;
+  padding-right: 10px;
+}
+
+body {background-color: #FFFFFF;}
 
 #logo {
   height:200px;
@@ -20,7 +25,7 @@ body {background-color: #000000;}
 
 a {
   /*color: #3b8bba;*/
-  color: #9999FF;
+  color: #0000AA;
   text-decoration: none;
 }
 a:hover,
@@ -29,7 +34,7 @@ a:focus {
 }
 a:visited {
   /*color: #265778;*/
-  color: #3b8bba;
+  color: #4400AA;
 }
 
 .small-print {
@@ -65,31 +70,6 @@ article > footer {
   overflow: hidden;
 }
 
-#menu .brand {
-  font-family: 'Source Code Pro';
-  font-weight: bold;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  text-transform: none;
-  background: transparent;
-  text-decoration: none;
-  margin: 0.5em 0;
-}
-
-#menu .pure-menu {
-  font-size: 0.9em;
-}
-
-.pure-menu-link span {
-    opacity:0;
-}
-.pure-menu-link:hover span {
-    text-decoration: none;
-    opacity:1;
-    -webkit-transition: opacity .25s ease-in-out .0s;
-    transition: opacity .25s ease-in-out .0s;
-}
-
 i {
   display: inline-block;
   margin-right: 0.2em;
@@ -104,6 +84,8 @@ i {
   background: transparent;
   text-decoration: none;
   margin: 0.5em 0;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 h1,h2,h3,h4 {
   text-align: left;
@@ -138,6 +120,7 @@ h1,h2,h3,h4 {
 .personheadersingle {
   padding: 20px;
   font-size: 24px;
+    line-height: 48px;
 }
 
 .personname  {
@@ -167,9 +150,49 @@ h1,h2,h3,h4 {
   overflow: hidden;
 }
 
+.content {
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
 
+
+.content-subhead {
+  margin: 50px 0 20px 0;
+  font-weight: 300;
+  color: #888;
+}
+
+
+@media (min-width: 32em) {
+  #layout {
+    padding-left: 150px;
+    left: 0;
+  }
+
+  #layout.active  {
+    left: 150px;
+  }
+}
+
+@media (max-width: 32em) {
+  .headertext {
+    font-size:50px;
+    line-height:60px;
+  }
+  #layout.active {
+    position: relative;
+    left: 150px;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+}
 
 * {
-  font-family: 'VT323','Source Code Pro';
-  color: white;
+  font-family: 'Lora','Slabo 27px','Helvetica','Source Code Pro';
+  color: black;
 }
