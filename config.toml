@@ -4,7 +4,7 @@ uglyurls = true
 canonifyurls = true
 theme = "cplburn"
 builddrafts = true
-baseurl = "http://localhost:1313/"
+baseurl = "http://cpl-uw.github.io/"
 
 paginate = 10
 

@@ -1,8 +1,8 @@
 <div class="person" style="display:inline-block;">
   <a href="{{ .Permalink }}">
 	  <div class="headshotbox">
-	    {{ if isset .Params "headshot" }}<img class="headshot" src="{{ .Params.headshot }}" >
-	    {{else}}<img class="headshot" src="img/book.png">{{end}}
+	    {{ if isset .Params "headshot" }}<img class="headshot" src="/{{ .Params.headshot }}" >
+	    {{else}}<img class="headshot" src="/img/book.png">{{end}}
 	  </div>
 	  <div class="personname">
 	    {{ if isset .Params "link" }}<a href="{{ .Params.link }}">{{ .Title }}</a>
