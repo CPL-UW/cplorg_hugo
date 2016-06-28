@@ -3,7 +3,7 @@
 <div class="content header">
   <!-- {{ .Title }}<br>
   {{ .Site.Params.subtitle }} -->
-  <div class="headerlogo"><img id="logo" src="/img/cpllogo.svg"></div>
+  <div class="headerlogo"><img id="logo" src="/img/cpllogowhite.svg"></div>
   <div class="headertext">COMPLEX<br>PLAY LAB</div>
 </div>
 
@@ -27,7 +27,7 @@
 </div>
 
 <div class="content">
-  <a id="papers"><h3>recent papers</h3></a>
+  <a id="papers"><h3>selected papers</h3></a>
   {{ range (where .Data.Pages "Type" "paper") }}
   {{ .Render "li"}}
   {{ end }}
