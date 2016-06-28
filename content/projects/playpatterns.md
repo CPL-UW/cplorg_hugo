@@ -5,6 +5,6 @@ draft = true
 tags = []
 title = "play patterns"
 topics = []
-link = "http://patterns.complexplay.org"
+link = "http://www.complexplay.org/patterns/"
 projectshot = "/img/p_ozgraph.jpg"
 +++
