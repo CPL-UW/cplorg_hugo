@@ -4,5 +4,6 @@ description = ""
 draft = true
 tags = []
 title = "laura legault"
+headshot = "img/m_legault.jpg"
 topics = []
 +++
