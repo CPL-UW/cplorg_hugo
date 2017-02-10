@@ -1,5 +1,5 @@
 +++
-author = "Berland, Martin, Benton, Petrick"
+author = "Berland, Martin, Benton, Petrick Smith, Davis"
 date = "2013-01-01"
 year = "2013"
 title = "Using Learning Analytics to Understand the Learning Pathways of Novice Programmers"
@@ -8,7 +8,7 @@ journal = "Journal of the Learning Sciences"
 +++
 ```bibtex
 @article{berland2013jls,
-    author    = {Berland and Martin and Benton and Petrick},
+    author    = {Berland and Martin and Benton and Petrick Smith and Davis},
     title     = {Using Learning Analytics to Understand the Learning Pathways of Novice Programmers},
     journal   = {Journal of the Learning Sciences},
     volume    = {22},
