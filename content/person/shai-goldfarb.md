@@ -1,9 +1,9 @@
 +++
-date = "2017-12-19T18:38:28-05:00"
+date = "2016-06-24T13:50:28-05:00"
 description = ""
 draft = true
 tags = []
 title = "shai goldfarb"
 topics = []
-headshot = "img/s_goldfarb.jpg"
+headshot = "img/s_goldfarb.JPG"
 +++
