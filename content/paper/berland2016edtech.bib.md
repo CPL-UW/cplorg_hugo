@@ -7,7 +7,7 @@ journal = "Educational Technology"
 link = "https://eric.ed.gov/?id=EJ1100952"
 +++
 ```bibtex
-@article{tissenbaum2016edm,
+@article{berlandduncan2016edtech,
     author    = {Berland and Duncan},
     year      = {2016},
     title     = {Computational thinking in the wild: Uncovering complex collaborative thinking through gameplay},
