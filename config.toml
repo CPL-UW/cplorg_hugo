@@ -4,7 +4,8 @@ uglyurls = true
 canonifyurls = true
 theme = "cplburn"
 builddrafts = true
-baseurl = "http://cpl-uw.github.io/"
+baseurl = "/"
+#"http://cpl-uw.github.io/"
 googleAnalytics = "UA-29814504-2"
 paginate = 10
 
